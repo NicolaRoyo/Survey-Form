@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+      <p id="description"> Please fill out this survey with the required information</p>
+      <form id="survey-form">
+        <fieldset> 
+          <label id="name-label">
+            <input id="name" type="text" required name="name" />
+          </label>
+          <label id="email-label">
+            <input id="email" type="email" required name="email" />
+          </label>
+          <label id="number-label">
+            <input id="number" type="number" min="0" max="5" />
+          </label>
+          <label for="">
+            <select id="dropdown" name="">
+              <option value="">(select one)</option>
+              <option value="1"> </option>
+              <option value="2"> </option>
+              <option value="3"> </option>
+              <option value="4"> </option>
+            </select>
+          </label>
+        </fieldset>
+      </form>
+    
+    
+    
